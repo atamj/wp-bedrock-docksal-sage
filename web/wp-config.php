@@ -8,8 +8,8 @@ require_once dirname(__DIR__) . '/vendor/autoload.php';
 require_once dirname(__DIR__) . '/config/application.php';
 require_once ABSPATH . 'wp-settings.php';
 $envs = [
-    'development' => 'http://docksal-test.docksal',
-    'staging'     => 'http://staging.example.com',
-    'production'  => 'http://example.com'
+    'development' => 'http://wp-bedrock-docksal-sage.docksal',
+    'staging'     => 'http://staging.wp-bedrock-docksal-sage.com',
+    'production'  => 'http://wp-bedrock-docksal-sage.com'
 ];
 define('ENVIRONMENTS', serialize($envs));
